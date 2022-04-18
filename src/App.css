@@ -1,0 +1,69 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  /* body{
+      overflow: hidden;
+  } */
+  
+  .index-earth-container {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100vh;
+  }
+  .index-sec1-title {
+    position: absolute;
+    top: 58%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: rgb(200, 199, 199);
+    font-size: 40px;
+    letter-spacing: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(201, 201, 201), -1px -1px rgb(106, 106, 106);
+    opacity: 0.6;
+  }
+  .index-earth {
+    position: absolute;
+    border-radius: 10px;
+    bottom: 15%;
+    right: 10%;
+    border: 2px solid white;
+  }
+  .index-earth-speed {
+    padding: 20px 40px;
+    background-color: #606060;
+    opacity: 0.33;
+  }
+  .index-earth-speed-title {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  .index-earth-speed-text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .earth-space-station {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  }
+  .earth-space-station-text {
+    color: white;
+    padding-left: 10px;
+    letter-spacing: 3px;
+    line-height:1.5;
+    opacity: 0.8;
+    font-weight: bold;
+    font-size:16px;
+  }
